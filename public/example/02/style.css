@@ -1,0 +1,9 @@
+@supports selector(:has(a)) {
+  ul:has(.item) {
+    background-color: pink;
+  }
+}
+
+ul {
+  background-color: orange;
+}
